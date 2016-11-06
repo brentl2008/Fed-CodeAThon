@@ -27,8 +27,12 @@ label {
 
 .login input[type=submit] {
 	border: 1px solid;
-	background: #64c8ef;
+	background: #45a049;
 	color: #fff;
 	padding: 5px 15px;
 	border-radius: 3px;
+}
+
+input:required {
+	border: 1px solid red;
 }
